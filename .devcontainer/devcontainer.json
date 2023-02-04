@@ -1,0 +1,13 @@
+{
+    "build": { "dockerfile": "Dockerfile" },
+  
+    "customizations": {
+      "vscode": {
+        "extensions": ["WindRiver.windsdksupport"]
+      }
+    },
+
+    "mounts": [
+      "source=${localEnv:HOME}${localEnv:USERPROFILE}/.studio-cli/studiocfg.yaml,target=/root/.studio-cli/studiocfg.yaml,type=bind,consistency=cached"
+    ]
+}

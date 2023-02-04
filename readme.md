@@ -1,0 +1,2 @@
+# Wind River Studio VSCode Dev Container
+This project contains a Visual Studio Code [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) including [Wind River Studio CLI](https://docs.windriver.com/bundle/studio_developer_studio-cli_22_09/page/index_studio_cli.html) (v22.09) and the [Wind River Studio VSCode Extension](https://marketplace.visualstudio.com/items?itemName=WindRiver.windsdksupport), and mounts the proper `studio-cli` config file to ensure persistence across sessions.
